@@ -381,6 +381,33 @@ footer h5 { color: #FFB800; }
 .reveal { opacity: 0; transform: translateY(28px); transition: opacity .7s cubic-bezier(.4,0,.2,1), transform .7s cubic-bezier(.4,0,.2,1); }
 .reveal.visible { opacity: 1; transform: none; }
 
+/* Botón portafolio */
+.btn-portfolio {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 10px 22px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #FFB800, #FFD966);
+  color: #0A1228;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: .82rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-decoration: none;
+  transition: all .28s cubic-bezier(.4,0,.2,1);
+  box-shadow: 0 4px 18px rgba(255,184,0,.35);
+  border: 1.5px solid rgba(255,184,0,.4);
+}
+.btn-portfolio:hover {
+  background: linear-gradient(135deg, #FFD966, #FFB800);
+  box-shadow: 0 8px 28px rgba(255,184,0,.55);
+  transform: translateY(-2px);
+  color: #0A1228;
+  gap: 12px;
+}
+
 /* ══ FIXES DE LEGIBILIDAD ══ */
 
 /* Hero: números de stats oscuros sobre fondo dorado */
